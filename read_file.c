@@ -4,6 +4,7 @@
  * read_file - reads a bytecode file and runs commands
  * @filename: pathname to file
  * @stack: pointer to the top of the stack
+ * Return: 0
  */
 void read_file(char *filename, stack_t **stack)
 {
@@ -72,6 +73,13 @@ instruct_func get_op_func(char *str)
 }
 
 
+
+/**
+ * isnumber - reads a bytecode file and runs commands
+ * @str: pathname to file
+ * Return: 1
+ */
+
 int isnumber(char *str)
 {
 	unsigned int i;
@@ -92,6 +100,14 @@ int isnumber(char *str)
 	}
 	return (1);
 }
+
+/**
+ * parse_line - reads a bytecode file and runs commands
+ * @line: pathname to file
+ * @stack: pointer to the top of the stack
+ * @line_number: a line number
+ * Return: op_code
+ */
 
 char *parse_line(char *line, stack_t **stack, unsigned int line_number)
 {

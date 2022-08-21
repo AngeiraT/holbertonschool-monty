@@ -21,4 +21,4 @@ void _swap(stack_t **stack, unsigned int line_number)
 	temp = tmp->n;
 	tmp->n = tmp->next->n;
 	tmp->next->n = temp;
-} 
+}

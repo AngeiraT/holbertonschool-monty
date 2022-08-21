@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * _add - add the 
+ * _add - add the
  * @stack: pointer to lists
  * @line_number: number of line
  */

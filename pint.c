@@ -4,7 +4,7 @@
  * _pint - print int a top of stack
  * @stack: pointer to linked list stack
  * @line_number: number of line opcode
- *
+ *Return: 0
  */
 void _pint(stack_t **stack, unsigned int line_number)
 {
