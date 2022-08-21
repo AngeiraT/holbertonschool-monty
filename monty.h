@@ -7,7 +7,6 @@
 #include <unistd.h>
 #include <ctype.h>
 
-extern int push_arg;
 
 /**
  * struct stack_s - doubly linked list representation of a stack
